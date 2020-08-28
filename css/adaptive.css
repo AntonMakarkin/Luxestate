@@ -1,0 +1,392 @@
+@media (max-width: 1149px) {
+    .intro .intro-text {
+        right: 48%;
+    }
+    .location-britain {
+        left: 198px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .menu li a.logo {
+        margin-right: 140px;
+    }
+    .buttons-search {
+        padding-left: 15%;
+    }
+    .apartments {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .steps {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .services {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .serv-img-container {
+        width: 50%;
+    }
+    .agents {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1093px) {
+    .cards {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .apart > h2 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1079px) {
+    .agents .wrapper h2 {
+        margin-left: 10%;
+    }
+    .agents .wrapper > p {
+        margin-left: 10%;
+    }
+    .agent-cards {
+        width: 80%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+    #third_agent {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .add-line > .line-text > p {
+        padding-right: 20px;
+    }
+    .add-line-right > .line-text > p {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .stepblock {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .steps-container {
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #third_stepblock {
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .buttons-search {
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .intro .intro-text {
+        right: 45%;
+    }
+}
+
+@media (max-width: 998px) {
+    .apart input[type=submit] {
+        margin: 0;
+    }
+}
+
+@media (max-width:930px) {
+    .intro .intro-text {
+        display: none;
+    }
+    .toggle {
+        clear: both;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: #000;
+        background: #ffcc01;
+        transition: all .1s linear;
+    }
+    .toggle:hover {
+        background: #d3a900;
+    }
+    #checkbox-menu:checked+label .touch li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s linear;
+    }
+    #checkbox-menu:checked+label .touch {
+        height: 350px;
+    }
+    .menu {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0;
+        transition: height .3s linear;
+    }
+    .menu li {
+        display: flex;
+        align-self: auto;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .menu li a {
+        width: 100%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    .menu li a.logo {
+        font-size: 21px;
+        margin-right: 0px;
+    }
+    .menu li a.contacts {
+        margin-right: 0px;
+    }
+    .intro {
+        margin-top: 0;
+        display: block;
+        min-width: 100%;
+    }
+    .add-line>.line-text> h3 {
+        margin-right: 50px;
+    }
+    .add-line-right>.line-text> h3 {
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 910px) {
+    .cards {
+        width: 90%;
+    }
+    .agent-cards {
+        width: 90%;
+    }
+    .add-line  .line-text > p {
+        margin-left: 70px;
+    }
+    .add-line-right  .line-text > p {
+        margin-right: 50px;
+        margin-left: 0;
+    }
+    .show-more {
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 840px) {
+    .steps-container {
+        width: 90%;
+    }
+    .add-line>.line-text> h3 {
+        margin-right: 30px;
+    }
+    .show-more {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 820px) {
+    .steps-container {
+        width: 100%;
+    }
+    .cards {
+        width: 100%;
+    }
+    .agent-cards{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .wrapper-stats {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .stats-line {
+        justify-content: space-evenly;
+    }
+    .add-line {
+        flex-direction: column;
+    }
+    .line-img > img {
+        display: block;
+        margin: 0 auto;
+    }
+    .location {
+        font-size: 15px;
+        padding: 15px 30px 30px 30px;
+    }
+    .line-text > h3 {
+        text-align: left;
+        margin-left: 5%;
+    }
+    .add-line-right> .line-text> h3 {
+        text-align: left;
+        margin-left: 5%;
+    }
+    .add-line-right>.line-text {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 737px) {
+    .cards {
+        flex-direction: column;
+        align-content: center;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .agent-cards {
+        flex-direction: column;
+        align-content: center;
+    }
+    .agent-card {
+        margin-bottom: 20px;
+    }
+    #third_agent {
+        margin: 0;
+    }
+}
+
+@media(max-width: 685px) {
+    .buttons-search {
+        display: flex;
+        flex-direction: column;
+    }
+    .all {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .steps-container {
+        flex-direction: column;
+        align-content: center;
+    }
+    .stepblock {
+        margin-bottom: 20px;
+    }
+    #third_stepblock {
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .serv-container {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .serv-img-container {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .serv-text {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .footer-block {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    .footer-logo {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .footer-search {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .footer-search input[type=text] {
+        width: 100%;
+    }
+    .footer-links {
+        flex-wrap: wrap;
+        margin-left: 10%;
+        padding-right: 10%;
+    }
+    .footer-link {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 530px) {
+    .stats-line {
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .square {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 460px) {
+    .apart input[type=text] {
+        width: 200px;
+    }
+    .location-britain {
+        left: 160px;
+    }
+    .footer-logo > h3 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 375px) {
+    .location-britain {
+        left: 100px;
+    }
+    .footer-links-logo {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    .agent_card_image {
+        width: 310px;
+    }
+}
+
+@media(max-width: 320px) {
+    .card {
+        width: 310px;
+    }
+    .stepblock {
+        width: 310px;
+    }
+    .agent-card {
+        width: 310px;
+    }
+    .location-london {
+        left: 70px;
+    }
+    .location-britain {
+        left: 70px;
+    }
+}
