@@ -1,6 +1,12 @@
-$(document).on("scroll", function () {
-    if ($(window).scrollTop() === 0)
-        $("header").removeClass("fixed");
-    else
-        $("header").attr("class", "fixed");
+window.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector('.header'),
+          html = document.documentElement;
+
+    window.addEventListener('scroll', function() {
+        if(html.scrollTop === 0) {
+            header.classList.remove('fixed');
+        } else {
+            header.classList.add('fixed');
+        }
+    });
 });
